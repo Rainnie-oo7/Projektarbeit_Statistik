@@ -1,0 +1,51 @@
+--- EMPIRISCHE PERZENTILE für ALLE SPALTEN ---
+
+                                  Spalte    Modell    q  Q_modell  CI_low  CI_high
+        Gesetzlich_bis_Beh_Wartezeit_min empirisch 0.10     14.00     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_min empirisch 0.50     82.00     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_min empirisch 0.70    118.50     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_min empirisch 0.80    136.00     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_min empirisch 0.90    174.50     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_min empirisch 0.95    192.50     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_max empirisch 0.10     25.00     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_max empirisch 0.50    138.00     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_max empirisch 0.70    174.00     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_max empirisch 0.80    186.00     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_max empirisch 0.90    212.50     NaN      NaN
+        Gesetzlich_bis_Beh_Wartezeit_max empirisch 0.95    273.00     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_min empirisch 0.10      1.10     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_min empirisch 0.50      8.00     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_min empirisch 0.70     11.80     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_min empirisch 0.80     13.00     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_min empirisch 0.90     40.90     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_min empirisch 0.95     84.05     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_max empirisch 0.10      2.30     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_max empirisch 0.50     63.00     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_max empirisch 0.70    105.90     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_max empirisch 0.80    128.60     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_max empirisch 0.90    189.70     NaN      NaN
+Gesetzlich_bis_Vorgespräch_Wartezeit_max empirisch 0.95    199.15     NaN      NaN
+                 Vorgespräch_bis_Beh_min empirisch 0.10      5.80     NaN      NaN
+                 Vorgespräch_bis_Beh_min empirisch 0.50     12.00     NaN      NaN
+                 Vorgespräch_bis_Beh_min empirisch 0.70     17.60     NaN      NaN
+                 Vorgespräch_bis_Beh_min empirisch 0.80     25.40     NaN      NaN
+                 Vorgespräch_bis_Beh_min empirisch 0.90     44.80     NaN      NaN
+                 Vorgespräch_bis_Beh_min empirisch 0.95     57.40     NaN      NaN
+                 Vorgespräch_bis_Beh_max empirisch 0.10     11.80     NaN      NaN
+                 Vorgespräch_bis_Beh_max empirisch 0.50     95.00     NaN      NaN
+                 Vorgespräch_bis_Beh_max empirisch 0.70    124.80     NaN      NaN
+                 Vorgespräch_bis_Beh_max empirisch 0.80    139.20     NaN      NaN
+                 Vorgespräch_bis_Beh_max empirisch 0.90    144.40     NaN      NaN
+                 Vorgespräch_bis_Beh_max empirisch 0.95    144.70     NaN      NaN
+                    Privat_Wartezeit_min empirisch 0.10      2.10     NaN      NaN
+                    Privat_Wartezeit_min empirisch 0.50      6.50     NaN      NaN
+                    Privat_Wartezeit_min empirisch 0.70     10.00     NaN      NaN
+                    Privat_Wartezeit_min empirisch 0.80     27.80     NaN      NaN
+                    Privat_Wartezeit_min empirisch 0.90     69.30     NaN      NaN
+                    Privat_Wartezeit_min empirisch 0.95    163.00     NaN      NaN
+                    Privat_Wartezeit_max empirisch 0.10      4.00     NaN      NaN
+                    Privat_Wartezeit_max empirisch 0.50      8.50     NaN      NaN
+                    Privat_Wartezeit_max empirisch 0.70     26.00     NaN      NaN
+                    Privat_Wartezeit_max empirisch 0.80     40.40     NaN      NaN
+                    Privat_Wartezeit_max empirisch 0.90    129.40     NaN      NaN
+                    Privat_Wartezeit_max empirisch 0.95    239.65     NaN      NaN

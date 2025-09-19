@@ -1,0 +1,170 @@
+--- PARAMETRISCHE (stochastische) PERZENTILE für ALLE MODELLE ---
+                                  Spalte  Modell    q  Q_modell  CI_low  CI_high
+        Gesetzlich_bis_Beh_Wartezeit_min lognorm 0.10     13.41   13.41    13.41
+        Gesetzlich_bis_Beh_Wartezeit_min lognorm 0.50     43.65   43.65    43.65
+        Gesetzlich_bis_Beh_Wartezeit_min lognorm 0.70     70.74   70.74    70.74
+        Gesetzlich_bis_Beh_Wartezeit_min lognorm 0.80     94.74   94.74    94.74
+        Gesetzlich_bis_Beh_Wartezeit_min lognorm 0.85    113.36  113.36   113.36
+        Gesetzlich_bis_Beh_Wartezeit_min lognorm 0.90    142.06  142.06   142.06
+        Gesetzlich_bis_Beh_Wartezeit_min lognorm 0.95    198.50  198.50   198.50
+        Gesetzlich_bis_Beh_Wartezeit_min   gamma 0.10     11.89   11.89    11.89
+        Gesetzlich_bis_Beh_Wartezeit_min   gamma 0.50     50.09   50.09    50.09
+        Gesetzlich_bis_Beh_Wartezeit_min   gamma 0.70     78.35   78.35    78.35
+        Gesetzlich_bis_Beh_Wartezeit_min   gamma 0.80     99.71   99.71    99.71
+        Gesetzlich_bis_Beh_Wartezeit_min   gamma 0.85    114.51  114.51   114.51
+        Gesetzlich_bis_Beh_Wartezeit_min   gamma 0.90    135.02  135.02   135.02
+        Gesetzlich_bis_Beh_Wartezeit_min   gamma 0.95    169.40  169.40   169.40
+        Gesetzlich_bis_Beh_Wartezeit_min weibull 0.10     11.18   11.18    11.18
+        Gesetzlich_bis_Beh_Wartezeit_min weibull 0.50     51.26   51.26    51.26
+        Gesetzlich_bis_Beh_Wartezeit_min weibull 0.70     80.09   80.09    80.09
+        Gesetzlich_bis_Beh_Wartezeit_min weibull 0.80    101.27  101.27   101.27
+        Gesetzlich_bis_Beh_Wartezeit_min weibull 0.85    115.67  115.67   115.67
+        Gesetzlich_bis_Beh_Wartezeit_min weibull 0.90    135.27  135.27   135.27
+        Gesetzlich_bis_Beh_Wartezeit_min weibull 0.95    167.34  167.34   167.34
+        Gesetzlich_bis_Beh_Wartezeit_max lognorm 0.10     25.67   25.67    25.67
+        Gesetzlich_bis_Beh_Wartezeit_max lognorm 0.50     80.95   80.95    80.95
+        Gesetzlich_bis_Beh_Wartezeit_max lognorm 0.70    129.53  129.53   129.53
+        Gesetzlich_bis_Beh_Wartezeit_max lognorm 0.80    172.13  172.13   172.13
+        Gesetzlich_bis_Beh_Wartezeit_max lognorm 0.85    204.97  204.97   204.97
+        Gesetzlich_bis_Beh_Wartezeit_max lognorm 0.90    255.33  255.33   255.33
+        Gesetzlich_bis_Beh_Wartezeit_max lognorm 0.95    353.62  353.62   353.62
+        Gesetzlich_bis_Beh_Wartezeit_max   gamma 0.10     28.87   28.87    28.87
+        Gesetzlich_bis_Beh_Wartezeit_max   gamma 0.50     88.69   88.69    88.69
+        Gesetzlich_bis_Beh_Wartezeit_max   gamma 0.70    127.97  127.97   127.97
+        Gesetzlich_bis_Beh_Wartezeit_max   gamma 0.80    156.53  156.53   156.53
+        Gesetzlich_bis_Beh_Wartezeit_max   gamma 0.85    175.95  175.95   175.95
+        Gesetzlich_bis_Beh_Wartezeit_max   gamma 0.90    202.49  202.49   202.49
+        Gesetzlich_bis_Beh_Wartezeit_max   gamma 0.95    246.23  246.23   246.23
+        Gesetzlich_bis_Beh_Wartezeit_max weibull 0.10     36.85   36.85    36.85
+        Gesetzlich_bis_Beh_Wartezeit_max weibull 0.50     96.56   96.56    96.56
+        Gesetzlich_bis_Beh_Wartezeit_max weibull 0.70    128.06  128.06   128.06
+        Gesetzlich_bis_Beh_Wartezeit_max weibull 0.80    148.55  148.55   148.55
+        Gesetzlich_bis_Beh_Wartezeit_max weibull 0.85    161.58  161.58   161.58
+        Gesetzlich_bis_Beh_Wartezeit_max weibull 0.90    178.41  178.41   178.41
+        Gesetzlich_bis_Beh_Wartezeit_max weibull 0.95    204.11  204.11   204.11
+Gesetzlich_bis_Vorgespräch_Wartezeit_min lognorm 0.10      1.41    1.41     1.41
+Gesetzlich_bis_Vorgespräch_Wartezeit_min lognorm 0.50      8.81    8.81     8.81
+Gesetzlich_bis_Vorgespräch_Wartezeit_min lognorm 0.70     18.65   18.65    18.65
+Gesetzlich_bis_Vorgespräch_Wartezeit_min lognorm 0.80     29.36   29.36    29.36
+Gesetzlich_bis_Vorgespräch_Wartezeit_min lognorm 0.85     38.78   38.78    38.78
+Gesetzlich_bis_Vorgespräch_Wartezeit_min lognorm 0.90     55.06   55.06    55.06
+Gesetzlich_bis_Vorgespräch_Wartezeit_min lognorm 0.95     92.55   92.55    92.55
+Gesetzlich_bis_Vorgespräch_Wartezeit_min   gamma 0.10      0.52    0.52     0.52
+Gesetzlich_bis_Vorgespräch_Wartezeit_min   gamma 0.50     14.14   14.14    14.14
+Gesetzlich_bis_Vorgespräch_Wartezeit_min   gamma 0.70     33.04   33.04    33.04
+Gesetzlich_bis_Vorgespräch_Wartezeit_min   gamma 0.80     50.29   50.29    50.29
+Gesetzlich_bis_Vorgespräch_Wartezeit_min   gamma 0.85     63.32   63.32    63.32
+Gesetzlich_bis_Vorgespräch_Wartezeit_min   gamma 0.90     82.48   82.48    82.48
+Gesetzlich_bis_Vorgespräch_Wartezeit_min   gamma 0.95    116.81  116.81   116.81
+Gesetzlich_bis_Vorgespräch_Wartezeit_min weibull 0.10      0.51    0.51     0.51
+Gesetzlich_bis_Vorgespräch_Wartezeit_min weibull 0.50     10.68   10.68    10.68
+Gesetzlich_bis_Vorgespräch_Wartezeit_min weibull 0.70     26.03   26.03    26.03
+Gesetzlich_bis_Vorgespräch_Wartezeit_min weibull 0.80     41.57   41.57    41.57
+Gesetzlich_bis_Vorgespräch_Wartezeit_min weibull 0.85     54.21   54.21    54.21
+Gesetzlich_bis_Vorgespräch_Wartezeit_min weibull 0.90     74.10   74.10    74.10
+Gesetzlich_bis_Vorgespräch_Wartezeit_min weibull 0.95    113.30  113.30   113.30
+Gesetzlich_bis_Vorgespräch_Wartezeit_max lognorm 0.10      8.52    8.52     8.52
+Gesetzlich_bis_Vorgespräch_Wartezeit_max lognorm 0.50     48.88   48.88    48.88
+Gesetzlich_bis_Vorgespräch_Wartezeit_max lognorm 0.70     99.92   99.92    99.92
+Gesetzlich_bis_Vorgespräch_Wartezeit_max lognorm 0.80    153.98  153.98   153.98
+Gesetzlich_bis_Vorgespräch_Wartezeit_max lognorm 0.85    200.82  200.82   200.82
+Gesetzlich_bis_Vorgespräch_Wartezeit_max lognorm 0.90    280.49  280.49   280.49
+Gesetzlich_bis_Vorgespräch_Wartezeit_max lognorm 0.95    460.27  460.27   460.27
+Gesetzlich_bis_Vorgespräch_Wartezeit_max   gamma 0.10      8.39    8.39     8.39
+Gesetzlich_bis_Vorgespräch_Wartezeit_max   gamma 0.50     61.49   61.49    61.49
+Gesetzlich_bis_Vorgespräch_Wartezeit_max   gamma 0.70    109.44  109.44   109.44
+Gesetzlich_bis_Vorgespräch_Wartezeit_max   gamma 0.80    147.93  147.93   147.93
+Gesetzlich_bis_Vorgespräch_Wartezeit_max   gamma 0.85    175.38  175.38   175.38
+Gesetzlich_bis_Vorgespräch_Wartezeit_max   gamma 0.90    214.22  214.22   214.22
+Gesetzlich_bis_Vorgespräch_Wartezeit_max   gamma 0.95    280.91  280.91   280.91
+Gesetzlich_bis_Vorgespräch_Wartezeit_max weibull 0.10      9.73    9.73     9.73
+Gesetzlich_bis_Vorgespräch_Wartezeit_max weibull 0.50     63.53   63.53    63.53
+Gesetzlich_bis_Vorgespräch_Wartezeit_max weibull 0.70    110.12  110.12   110.12
+Gesetzlich_bis_Vorgespräch_Wartezeit_max weibull 0.80    147.04  147.04   147.04
+Gesetzlich_bis_Vorgespräch_Wartezeit_max weibull 0.85    173.22  173.22   173.22
+Gesetzlich_bis_Vorgespräch_Wartezeit_max weibull 0.90    210.09  210.09   210.09
+Gesetzlich_bis_Vorgespräch_Wartezeit_max weibull 0.95    273.06  273.06   273.06
+                 Vorgespräch_bis_Beh_min lognorm 0.10      3.91    3.91     3.91
+                 Vorgespräch_bis_Beh_min lognorm 0.50      6.95    6.95     6.95
+                 Vorgespräch_bis_Beh_min lognorm 0.70      8.80    8.80     8.80
+                 Vorgespräch_bis_Beh_min lognorm 0.80     10.14   10.14    10.14
+                 Vorgespräch_bis_Beh_min lognorm 0.85     11.07   11.07    11.07
+                 Vorgespräch_bis_Beh_min lognorm 0.90     12.35   12.35    12.35
+                 Vorgespräch_bis_Beh_min lognorm 0.95     14.54   14.54    14.54
+                 Vorgespräch_bis_Beh_min   gamma 0.10      3.82    3.82     3.82
+                 Vorgespräch_bis_Beh_min   gamma 0.50      7.19    7.19     7.19
+                 Vorgespräch_bis_Beh_min   gamma 0.70      9.01    9.01     9.01
+                 Vorgespräch_bis_Beh_min   gamma 0.80     10.25   10.25    10.25
+                 Vorgespräch_bis_Beh_min   gamma 0.85     11.06   11.06    11.06
+                 Vorgespräch_bis_Beh_min   gamma 0.90     12.14   12.14    12.14
+                 Vorgespräch_bis_Beh_min   gamma 0.95     13.85   13.85    13.85
+                 Vorgespräch_bis_Beh_min weibull 0.10      3.60    3.60     3.60
+                 Vorgespräch_bis_Beh_min weibull 0.50      7.52    7.52     7.52
+                 Vorgespräch_bis_Beh_min weibull 0.70      9.34    9.34     9.34
+                 Vorgespräch_bis_Beh_min weibull 0.80     10.46   10.46    10.46
+                 Vorgespräch_bis_Beh_min weibull 0.85     11.16   11.16    11.16
+                 Vorgespräch_bis_Beh_min weibull 0.90     12.04   12.04    12.04
+                 Vorgespräch_bis_Beh_min weibull 0.95     13.34   13.34    13.34
+                 Vorgespräch_bis_Beh_max lognorm 0.10      7.45    7.45     7.45
+                 Vorgespräch_bis_Beh_max lognorm 0.50     37.18   37.18    37.18
+                 Vorgespräch_bis_Beh_max lognorm 0.70     71.79   71.79    71.79
+                 Vorgespräch_bis_Beh_max lognorm 0.80    106.88  106.88   106.88
+                 Vorgespräch_bis_Beh_max lognorm 0.85    136.47  136.47   136.47
+                 Vorgespräch_bis_Beh_max lognorm 0.90    185.61  185.61   185.61
+                 Vorgespräch_bis_Beh_max lognorm 0.95    292.78  292.78   292.78
+                 Vorgespräch_bis_Beh_max   gamma 0.10      6.77    6.77     6.77
+                 Vorgespräch_bis_Beh_max   gamma 0.50     46.20   46.20    46.20
+                 Vorgespräch_bis_Beh_max   gamma 0.70     80.92   80.92    80.92
+                 Vorgespräch_bis_Beh_max   gamma 0.80    108.59  108.59   108.59
+                 Vorgespräch_bis_Beh_max   gamma 0.85    128.26  128.26   128.26
+                 Vorgespräch_bis_Beh_max   gamma 0.90    156.01  156.01   156.01
+                 Vorgespräch_bis_Beh_max   gamma 0.95    203.53  203.53   203.53
+                 Vorgespräch_bis_Beh_max weibull 0.10      7.26    7.26     7.26
+                 Vorgespräch_bis_Beh_max weibull 0.50     46.99   46.99    46.99
+                 Vorgespräch_bis_Beh_max weibull 0.70     81.22   81.22    81.22
+                 Vorgespräch_bis_Beh_max weibull 0.80    108.29  108.29   108.29
+                 Vorgespräch_bis_Beh_max weibull 0.85    127.46  127.46   127.46
+                 Vorgespräch_bis_Beh_max weibull 0.90    154.44  154.44   154.44
+                 Vorgespräch_bis_Beh_max weibull 0.95    200.46  200.46   200.46
+                    Privat_Wartezeit_min lognorm 0.10      0.89    0.89     0.89
+                    Privat_Wartezeit_min lognorm 0.50      2.91    2.91     2.91
+                    Privat_Wartezeit_min lognorm 0.70      4.72    4.72     4.72
+                    Privat_Wartezeit_min lognorm 0.80      6.32    6.32     6.32
+                    Privat_Wartezeit_min lognorm 0.85      7.57    7.57     7.57
+                    Privat_Wartezeit_min lognorm 0.90      9.49    9.49     9.49
+                    Privat_Wartezeit_min lognorm 0.95     13.26   13.26    13.26
+                    Privat_Wartezeit_min   gamma 0.10      0.74    0.74     0.74
+                    Privat_Wartezeit_min   gamma 0.50      3.38    3.38     3.38
+                    Privat_Wartezeit_min   gamma 0.70      5.40    5.40     5.40
+                    Privat_Wartezeit_min   gamma 0.80      6.94    6.94     6.94
+                    Privat_Wartezeit_min   gamma 0.85      8.01    8.01     8.01
+                    Privat_Wartezeit_min   gamma 0.90      9.50    9.50     9.50
+                    Privat_Wartezeit_min   gamma 0.95     12.01   12.01    12.01
+                    Privat_Wartezeit_min weibull 0.10      0.65    0.65     0.65
+                    Privat_Wartezeit_min weibull 0.50      3.39    3.39     3.39
+                    Privat_Wartezeit_min weibull 0.70      5.49    5.49     5.49
+                    Privat_Wartezeit_min weibull 0.80      7.07    7.07     7.07
+                    Privat_Wartezeit_min weibull 0.85      8.17    8.17     8.17
+                    Privat_Wartezeit_min weibull 0.90      9.67    9.67     9.67
+                    Privat_Wartezeit_min weibull 0.95     12.17   12.17    12.17
+                    Privat_Wartezeit_max lognorm 0.10      1.35    1.35     1.35
+                    Privat_Wartezeit_max lognorm 0.50      5.22    5.22     5.22
+                    Privat_Wartezeit_max lognorm 0.70      9.09    9.09     9.09
+                    Privat_Wartezeit_max lognorm 0.80     12.71   12.71    12.71
+                    Privat_Wartezeit_max lognorm 0.85     15.62   15.62    15.62
+                    Privat_Wartezeit_max lognorm 0.90     20.24   20.24    20.24
+                    Privat_Wartezeit_max lognorm 0.95     29.73   29.73    29.73
+                    Privat_Wartezeit_max   gamma 0.10      1.07    1.07     1.07
+                    Privat_Wartezeit_max   gamma 0.50      6.33    6.33     6.33
+                    Privat_Wartezeit_max   gamma 0.70     10.72   10.72    10.72
+                    Privat_Wartezeit_max   gamma 0.80     14.16   14.16    14.16
+                    Privat_Wartezeit_max   gamma 0.85     16.59   16.59    16.59
+                    Privat_Wartezeit_max   gamma 0.90     20.00   20.00    20.00
+                    Privat_Wartezeit_max   gamma 0.95     25.81   25.81    25.81
+                    Privat_Wartezeit_max weibull 0.10      0.95    0.95     0.95
+                    Privat_Wartezeit_max weibull 0.50      6.16    6.16     6.16
+                    Privat_Wartezeit_max weibull 0.70     10.68   10.68    10.68
+                    Privat_Wartezeit_max weibull 0.80     14.25   14.25    14.25
+                    Privat_Wartezeit_max weibull 0.85     16.79   16.79    16.79
+                    Privat_Wartezeit_max weibull 0.90     20.36   20.36    20.36
+                    Privat_Wartezeit_max weibull 0.95     26.45   26.45    26.45

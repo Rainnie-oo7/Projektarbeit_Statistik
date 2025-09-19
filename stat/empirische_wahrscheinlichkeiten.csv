@@ -1,0 +1,21 @@
+Spalte;Intervall;Empirische_Wahrscheinlichkeit
+Gesetzlich_bis_Beh_Wartezeit_mean;0-4 Wochen;0.11538461538461539
+Gesetzlich_bis_Beh_Wartezeit_mean;4-8 Wochen;0.038461538461538464
+Gesetzlich_bis_Beh_Wartezeit_mean;8-12 Wochen;0.19230769230769232
+Gesetzlich_bis_Beh_Wartezeit_mean;12-16 Wochen;0.19230769230769232
+Gesetzlich_bis_Beh_Wartezeit_mean;16-45 Wochen;0.46153846153846156
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean;0-4 Wochen;0.5833333333333334
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean;4-8 Wochen;0.16666666666666666
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean;8-12 Wochen;0.08333333333333333
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean;12-16 Wochen;0.0
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean;16-45 Wochen;0.16666666666666666
+Vorgespräch_bis_Beh_mean;0-4 Wochen;0.42857142857142855
+Vorgespräch_bis_Beh_mean;4-8 Wochen;0.2857142857142857
+Vorgespräch_bis_Beh_mean;8-12 Wochen;0.2857142857142857
+Vorgespräch_bis_Beh_mean;12-16 Wochen;0.0
+Vorgespräch_bis_Beh_mean;16-45 Wochen;0.0
+Privat_Wartezeit_mean;0-4 Wochen;0.75
+Privat_Wartezeit_mean;4-8 Wochen;0.0625
+Privat_Wartezeit_mean;8-12 Wochen;0.0625
+Privat_Wartezeit_mean;12-16 Wochen;0.0
+Privat_Wartezeit_mean;16-45 Wochen;0.125

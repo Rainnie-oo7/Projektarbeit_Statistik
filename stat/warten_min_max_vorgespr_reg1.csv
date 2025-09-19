@@ -1,0 +1,9 @@
+﻿Nummer,Gesetzlich_bis_Beh_Wartezeit_min,Gesetzlich_bis_Beh_Wartezeit_max,Gesetzlich_bis_Vorgespräch_Wartezeit_min,Gesetzlich_bis_Vorgespräch_Wartezeit_max,Vorgespräch_bis_Beh_min,Vorgespräch_bis_Beh_max,Privat_Wartezeit_min,Privat_Wartezeit_max
+3,26,146,2,22,4,144,1,1
+5,157,157,133,133,,,2,30
+12,,,5,203,,,1,4
+16,20,145,8,94,12,51,4,4
+17,72,72,,,,,11,11
+23,98,98,,,,,10,10
+29,,,,,,,2,2
+32,12,12,5,5,7,7,,

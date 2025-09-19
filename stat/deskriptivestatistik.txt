@@ -1,0 +1,97 @@
+--- DESKRIPTIVE STATISTIK ---
+
+Spalte: Gesetzlich_bis_Beh_Wartezeit_min
+count     26.000000
+mean      87.346154
+std       69.227129
+min        1.000000
+50%       82.000000
+80%      136.000000
+85%      159.500000
+90%      174.500000
+max      273.000000
+Name: Gesetzlich_bis_Beh_Wartezeit_min, dtype: float64
+
+Spalte: Gesetzlich_bis_Beh_Wartezeit_max
+count     26.000000
+mean     135.500000
+std       78.584095
+min        1.000000
+50%      138.000000
+80%      186.000000
+85%      200.000000
+90%      212.500000
+max      316.000000
+Name: Gesetzlich_bis_Beh_Wartezeit_max, dtype: float64
+
+Spalte: Gesetzlich_bis_Vorgespräch_Wartezeit_min
+count     12.000000
+mean      20.166667
+std       37.352944
+min        1.000000
+50%        8.000000
+80%       13.000000
+85%       23.850000
+90%       40.900000
+max      133.000000
+Name: Gesetzlich_bis_Vorgespräch_Wartezeit_min, dtype: float64
+
+Spalte: Gesetzlich_bis_Vorgespräch_Wartezeit_max
+count     12.000000
+mean      75.166667
+std       73.382972
+min        1.000000
+50%       63.000000
+80%      128.600000
+85%      155.050000
+90%      189.700000
+max      203.000000
+Name: Gesetzlich_bis_Vorgespräch_Wartezeit_max, dtype: float64
+
+Spalte: Vorgespräch_bis_Beh_min
+count     7.000000
+mean     20.571429
+std      23.165039
+min       4.000000
+50%      12.000000
+80%      25.400000
+85%      32.200000
+90%      44.800000
+max      70.000000
+Name: Vorgespräch_bis_Beh_min, dtype: float64
+
+Spalte: Vorgespräch_bis_Beh_max
+count      7.000000
+mean      82.428571
+std       58.451852
+min        7.000000
+50%       95.000000
+80%      139.200000
+85%      144.100000
+90%      144.400000
+max      145.000000
+Name: Vorgespräch_bis_Beh_max, dtype: float64
+
+Spalte: Privat_Wartezeit_min
+count     32.000000
+mean      29.656250
+std       60.982604
+min        1.000000
+50%        6.500000
+80%       27.800000
+85%       42.200000
+90%       69.300000
+max      273.000000
+Name: Privat_Wartezeit_min, dtype: float64
+
+Spalte: Privat_Wartezeit_max
+count     32.00000
+mean      42.59375
+std       80.18481
+min        1.00000
+50%        8.50000
+80%       40.40000
+85%       65.45000
+90%      129.40000
+max      316.00000
+Name: Privat_Wartezeit_max, dtype: float64

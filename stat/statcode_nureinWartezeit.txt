@@ -1,0 +1,70 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+import statsmodels.stats.api as sms
+
+# === CSV laden ===
+df = pd.read_csv("wartezeiten.csv")
+
+# Sicherstellen, dass Wartezeit numerisch ist
+df["wartezeit"] = pd.to_numeric(df["wartezeit"], errors="coerce")
+df = df.dropna(subset=["wartezeit", "region"])
+
+# === 1. Deskriptive Statistik ===
+print("\n--- DESKRIPTIVE STATISTIK ---")
+print(df.groupby("region")["wartezeit"].describe())
+
+# Histogramm + KDE
+plt.figure(figsize=(10,5))
+sns.histplot(data=df, x="wartezeit", hue="region", kde=True, bins=20)
+plt.title("Histogramm + KDE nach Region")
+plt.xlabel("Wartezeit (Tage)")
+plt.ylabel("Anzahl")
+plt.show()
+
+# Boxplot
+plt.figure(figsize=(6,5))
+sns.boxplot(data=df, x="region", y="wartezeit")
+plt.title("Boxplot Wartezeiten pro Region")
+plt.show()
+
+# === 2. Hypothesentest (Mann-Whitney-U) ===
+region1 = df[df["region"] == "Region1"]["wartezeit"]
+region2 = df[df["region"] == "Region2"]["wartezeit"]
+
+u_stat, p_val = stats.mannwhitneyu(region1, region2, alternative='two-sided')
+print("\n--- MANN-WHITNEY-U TEST ---")
+print(f"U-Statistik: {u_stat:.3f}, p-Wert: {p_val:.4f}")
+
+# === 3. Konfidenzintervall für den Mittelwert (Beispiel Region1) ===
+mean_ci = sms.DescrStatsW(region1).tconfint_mean()
+print("\n--- 95% KONFIDENTZINTERVALL (Region1 Mittelwert) ---")
+print(f"Intervall: {mean_ci[0]:.2f} bis {mean_ci[1]:.2f}")
+
+# === 4. Log-Normal Fit mit MLE ===
+# Log-Transformation
+log_data = np.log(df["wartezeit"])
+mu_hat, sigma_hat = stats.norm.fit(log_data)  # MLE-Schätzung
+
+print("\n--- LOG-NORMAL MLE FIT (Alle Daten) ---")
+print(f"μ (log-Mittel): {mu_hat:.4f}")
+print(f"σ (log-Stdabw.): {sigma_hat:.4f}")
+
+# Wahrscheinlichkeitsbeispiel: 25–35 Tage
+p_25_35 = stats.lognorm.cdf(35, s=sigma_hat, scale=np.exp(mu_hat)) - \
+           stats.lognorm.cdf(25, s=sigma_hat, scale=np.exp(mu_hat))
+print(f"Wahrscheinlichkeit für 25–35 Tage: {p_25_35*100:.2f} %")
+
+# Plot mit gefitteter Verteilung
+plt.figure(figsize=(10,5))
+sns.histplot(df["wartezeit"], bins=20, stat="density", color="skyblue", label="Daten")
+x_vals = np.linspace(1, df["wartezeit"].max(), 500)
+pdf_vals = stats.lognorm.pdf(x_vals, s=sigma_hat, scale=np.exp(mu_hat))
+plt.plot(x_vals, pdf_vals, 'r-', lw=2, label="Gefittete Log-Normal")
+plt.title("Gefittete Log-Normal-Verteilung")
+plt.xlabel("Wartezeit (Tage)")
+plt.ylabel("Dichte")
+plt.legend()
+plt.show()

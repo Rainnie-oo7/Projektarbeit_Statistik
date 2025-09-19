@@ -1,0 +1,87 @@
+--- PARAMETRISCHE (stochastische) PERZENTILE für ALLE MODELLE ---
+
+                                   Spalte  Modell    q  Q_modell  CI_low  CI_high
+        Gesetzlich_bis_Beh_Wartezeit_mean lognorm 0.10     19.10   19.10    19.10
+        Gesetzlich_bis_Beh_Wartezeit_mean lognorm 0.50     80.57   80.57    80.57
+        Gesetzlich_bis_Beh_Wartezeit_mean lognorm 0.70    145.21  145.21   145.21
+        Gesetzlich_bis_Beh_Wartezeit_mean lognorm 0.80    207.37  207.37   207.37
+        Gesetzlich_bis_Beh_Wartezeit_mean lognorm 0.85    258.09  258.09   258.09
+        Gesetzlich_bis_Beh_Wartezeit_mean lognorm 0.90    339.89  339.89   339.89
+        Gesetzlich_bis_Beh_Wartezeit_mean lognorm 0.95    511.17  511.17   511.17
+        Gesetzlich_bis_Beh_Wartezeit_mean   gamma 0.10     24.94   24.94    24.94
+        Gesetzlich_bis_Beh_Wartezeit_mean   gamma 0.50     90.38   90.38    90.38
+        Gesetzlich_bis_Beh_Wartezeit_mean   gamma 0.70    136.15  136.15   136.15
+        Gesetzlich_bis_Beh_Wartezeit_mean   gamma 0.80    170.11  170.11   170.11
+        Gesetzlich_bis_Beh_Wartezeit_mean   gamma 0.85    193.45  193.45   193.45
+        Gesetzlich_bis_Beh_Wartezeit_mean   gamma 0.90    225.57  225.57   225.57
+        Gesetzlich_bis_Beh_Wartezeit_mean   gamma 0.95    279.02  279.02   279.02
+        Gesetzlich_bis_Beh_Wartezeit_mean weibull 0.10     30.47   30.47    30.47
+        Gesetzlich_bis_Beh_Wartezeit_mean weibull 0.50     97.34   97.34    97.34
+        Gesetzlich_bis_Beh_Wartezeit_mean weibull 0.70    136.82  136.82   136.82
+        Gesetzlich_bis_Beh_Wartezeit_mean weibull 0.80    163.63  163.63   163.63
+        Gesetzlich_bis_Beh_Wartezeit_mean weibull 0.85    181.09  181.09   181.09
+        Gesetzlich_bis_Beh_Wartezeit_mean weibull 0.90    204.06  204.06   204.06
+        Gesetzlich_bis_Beh_Wartezeit_mean weibull 0.95    240.01  240.01   240.01
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean lognorm 0.10      2.68    2.68     2.68
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean lognorm 0.50     20.99   20.99    20.99
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean lognorm 0.70     48.73   48.73    48.73
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean lognorm 0.80     81.12   81.12    81.12
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean lognorm 0.85    110.92  110.92   110.92
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean lognorm 0.90    164.43  164.43   164.43
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean lognorm 0.95    294.72  294.72   294.72
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean   gamma 0.10      2.54    2.54     2.54
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean   gamma 0.50     28.48   28.48    28.48
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean   gamma 0.70     55.54   55.54    55.54
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean   gamma 0.80     78.22   78.22    78.22
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean   gamma 0.85     94.72   94.72    94.72
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean   gamma 0.90    118.38  118.38   118.38
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean   gamma 0.95    159.63  159.63   159.63
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean weibull 0.10      3.00    3.00     3.00
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean weibull 0.50     28.41   28.41    28.41
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean weibull 0.70     54.89   54.89    54.89
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean weibull 0.80     77.60   77.60    77.60
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean weibull 0.85     94.42   94.42    94.42
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean weibull 0.90    118.96  118.96   118.96
+Gesetzlich_bis_Vorgespräch_Wartezeit_mean weibull 0.95    162.83  162.83   162.83
+                 Vorgespräch_bis_Beh_mean lognorm 0.10     11.85   11.85    11.85
+                 Vorgespräch_bis_Beh_mean lognorm 0.50     37.87   37.87    37.87
+                 Vorgespräch_bis_Beh_mean lognorm 0.70     60.93   60.93    60.93
+                 Vorgespräch_bis_Beh_mean lognorm 0.80     81.23   81.23    81.23
+                 Vorgespräch_bis_Beh_mean lognorm 0.85     96.93   96.93    96.93
+                 Vorgespräch_bis_Beh_mean lognorm 0.90    121.05  121.05   121.05
+                 Vorgespräch_bis_Beh_mean lognorm 0.95    168.28  168.28   168.28
+                 Vorgespräch_bis_Beh_mean   gamma 0.10     12.16   12.16    12.16
+                 Vorgespräch_bis_Beh_mean   gamma 0.50     42.22   42.22    42.22
+                 Vorgespräch_bis_Beh_mean   gamma 0.70     62.91   62.91    62.91
+                 Vorgespräch_bis_Beh_mean   gamma 0.80     78.18   78.18    78.18
+                 Vorgespräch_bis_Beh_mean   gamma 0.85     88.65   88.65    88.65
+                 Vorgespräch_bis_Beh_mean   gamma 0.90    103.03  103.03   103.03
+                 Vorgespräch_bis_Beh_mean   gamma 0.95    126.91  126.91   126.91
+                 Vorgespräch_bis_Beh_mean weibull 0.10     13.84   13.84    13.84
+                 Vorgespräch_bis_Beh_mean weibull 0.50     45.27   45.27    45.27
+                 Vorgespräch_bis_Beh_mean weibull 0.70     64.07   64.07    64.07
+                 Vorgespräch_bis_Beh_mean weibull 0.80     76.91   76.91    76.91
+                 Vorgespräch_bis_Beh_mean weibull 0.85     85.29   85.29    85.29
+                 Vorgespräch_bis_Beh_mean weibull 0.90     96.35   96.35    96.35
+                 Vorgespräch_bis_Beh_mean weibull 0.95    113.70  113.70   113.70
+                    Privat_Wartezeit_mean lognorm 0.10      2.21    2.21     2.21
+                    Privat_Wartezeit_mean lognorm 0.50     12.36   12.36    12.36
+                    Privat_Wartezeit_mean lognorm 0.70     25.01   25.01    25.01
+                    Privat_Wartezeit_mean lognorm 0.80     38.32   38.32    38.32
+                    Privat_Wartezeit_mean lognorm 0.85     49.79   49.79    49.79
+                    Privat_Wartezeit_mean lognorm 0.90     69.22   69.22    69.22
+                    Privat_Wartezeit_mean lognorm 0.95    112.81  112.81   112.81
+                    Privat_Wartezeit_mean   gamma 0.10      0.97    0.97     0.97
+                    Privat_Wartezeit_mean   gamma 0.50     18.52   18.52    18.52
+                    Privat_Wartezeit_mean   gamma 0.70     40.31   40.31    40.31
+                    Privat_Wartezeit_mean   gamma 0.80     59.54   59.54    59.54
+                    Privat_Wartezeit_mean   gamma 0.85     73.85   73.85    73.85
+                    Privat_Wartezeit_mean   gamma 0.90     94.70   94.70    94.70
+                    Privat_Wartezeit_mean   gamma 0.95    131.66  131.66   131.66
+                    Privat_Wartezeit_mean weibull 0.10      0.90    0.90     0.90
+                    Privat_Wartezeit_mean weibull 0.50     14.75   14.75    14.75
+                    Privat_Wartezeit_mean weibull 0.70     33.47   33.47    33.47
+                    Privat_Wartezeit_mean weibull 0.80     51.51   51.51    51.51
+                    Privat_Wartezeit_mean weibull 0.85     65.75   65.75    65.75
+                    Privat_Wartezeit_mean weibull 0.90     87.66   87.66    87.66
+                    Privat_Wartezeit_mean weibull 0.95    129.56  129.56   129.56
